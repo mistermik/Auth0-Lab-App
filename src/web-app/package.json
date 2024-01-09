@@ -14,7 +14,7 @@
     "url": "git+https://github.com/auth0-training/labs-node-working-with-the-user-profile.git"
   },
   "scripts": {
-    "start": "PORT=$npm_package_config_port SESSION_SECRET=$npm_package_config_session_secret node index"
+    "start": "set PORT=%npm_package_config_port% && set SESSION_SECRET=%npm_package_config_session_secret% && node index"
   },
   "config": {
     "port": 37500,
